@@ -38,7 +38,5 @@ Run the notebooks on your local machine, you can clone this repository, install 
 
    Or if you are using Visual Studio Code, you can open the notebooks directly in the editor.
 
-   > [!NOTE]
-   > You need to select the Python interpreter in the virtual environment you created in step 2 in the kernel of the Jupyter notebook.
-
-5. Enjoy!
+> [!NOTE]
+> You need to select the Python interpreter in the virtual environment you created in step 2 in the kernel of the Jupyter notebook.
