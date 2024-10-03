@@ -17,13 +17,20 @@ Run the notebooks on your local machine, you can clone this repository, install 
    cd book-hands-on-machine-learning
    ```
 
-2. Install the required dependencies by running:
+2. Create a virtual environment by running:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install the required dependencies by running:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Start the Jupyter notebook server by running:
+4. Start the Jupyter notebook server by running:
 
    ```bash
    jupyter notebook
@@ -31,4 +38,7 @@ Run the notebooks on your local machine, you can clone this repository, install 
 
    Or if you are using Visual Studio Code, you can open the notebooks directly in the editor.
 
-4. Enjoy!
+   > [!NOTE]
+   > You need to select the Python interpreter in the virtual environment you created in step 2 in the kernel of the Jupyter notebook.
+
+5. Enjoy!
